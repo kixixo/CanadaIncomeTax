@@ -1,0 +1,27 @@
+{
+  "name": "july15tdd",
+  "version": "1.0.0",
+  "description": "test driven development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel --no-hmr public/index.html"
+  },
+  "keywords": [
+    "jest",
+    "node",
+    "tdd"
+  ],
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "*",
+    "parcel-bundler": "*"
+  },
+  "dependencies": {
+    "dom": "*",
+    "framework7": "*",
+    "framework7-icons": "*",
+    "material-design-icons": "*"
+  }
+}
